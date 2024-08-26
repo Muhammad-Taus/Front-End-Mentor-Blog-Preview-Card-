@@ -1,0 +1,103 @@
+:root{
+    --yellowColor: hsl(47, 88%, 63%);
+    --whiteColor: hsl(0, 0%, 100%);
+    --gray500: hsl(0, 0%, 42%);
+    --gray950: hsl(0, 0%, 7%);
+}
+
+*{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.padding-top-12px{
+    padding-top: 12px;
+}
+
+.padding-bottom-12px{
+    padding-bottom: 12px;
+}
+
+html, body{
+    height: 100%;
+}
+
+body{
+    background-color: var(--yellowColor);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: 950;
+}
+
+p{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+.card{
+    max-width: 384px;
+    background-color: var(--whiteColor);
+    padding: 1.5rem;
+    border-radius: 20px;
+}
+
+.card img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+
+}
+
+.card-info{
+    padding: 1.5rem 0;
+}
+
+.card-info span:first-child{
+    background-color: var(--yellowColor);
+    padding: 4px 12px;
+    border-radius: 4px;
+    font-weight: 950;
+}
+
+.card-info span:nth-child(2){
+    display: block;
+}
+
+.card-info h4{
+    font-size: 20px;
+
+}
+
+
+.card-author img{
+    display: inline;
+    max-width: 32px;
+    max-height: 32px;
+    margin-right: 12px;
+}
+
+
+
+.card-author{
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
