@@ -82,7 +82,7 @@ p{
     font-size: 1.25rem;
 }
 
-.card-info h4:hover{
+.card-info h4:hover, .card-info h4:focus{
     cursor: pointer;
     color: var(--yellowColor);
 }
@@ -101,17 +101,9 @@ p{
 }
 
 
-
 .card-author{
     display: flex;
     align-items: center;
     font-weight: 950;
 }
 
-
-
-
-
-
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
